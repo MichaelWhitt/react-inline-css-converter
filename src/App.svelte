@@ -5,7 +5,7 @@
 </script>
 <TailwindCss />
 
-<main class='bg-[#333] h-screen w-screen'>
+<main class='bg-[#333] h-screen w-screen flex justify-center items-center'>
   <Converter />
 </main>
 
