@@ -1,1 +1,1 @@
-Convert inline React css to regular css
+Convert inline React css to various css formats
