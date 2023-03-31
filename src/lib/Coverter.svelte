@@ -6,16 +6,15 @@
     let leftInput = ''
 
     const formatInput = (val: string) => {
-        //<div id='page-title' style={{left: '11%', weight: 500, fontSize: 700}}>
+        //<span id='page-title' style={{left: '11%', weight: 500, fontSize: 700, textAlign: 'center', coolName: "thing", size: 500px}}>
         let styleString: string
         if (val.includes('style={{')) {
             const indexOfStyleString = val.indexOf('style=')
             styleString = val.slice(indexOfStyleString + 8, val.lastIndexOf('}}'))
-            const valArray = styleString.split(',')
+            const valArray = styleString.split(',').map( v => v.trim() + ';')
             return valArray
         }
         return val.split(',')
-        
     }
   
 </script>
