@@ -3,7 +3,6 @@
     export let selector = 'c'
     
     const handleToggle = (type) => {
-        console.log('type', type)
         selector = type
     }
     console.log(selector)
