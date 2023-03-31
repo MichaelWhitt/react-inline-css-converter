@@ -1,5 +1,4 @@
 <script lang="ts">
-    import { loop_guard } from "svelte/internal";
     import NameInput from './NameInput.svelte'
   
     let leftInput = ''
