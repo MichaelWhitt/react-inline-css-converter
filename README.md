@@ -1,4 +1,5 @@
-Convert inline React css to various css formats
+Convert inline React css to various css formats, including vanilla CSS and tailwind. 
+More formats available in the future.
 
 This program uses Svelte, Vite, and Tailwind. 
 
