@@ -1,14 +1,10 @@
 <script lang="ts">
   
-  import TailwindCss from './TailwindCSS.svelte';
-  import Converter from './lib/Coverter.svelte'
+  import TailwindCSS from './TailwindCSS.svelte';
+  import Converter from './lib/Coverter.svelte';
 </script>
-<TailwindCss />
+<TailwindCSS />
 
-<main class='bg-[#333] h-screen w-screen flex justify-center items-center'>
+<main class='bg-[#246] h-screen w-screen flex justify-center items-center'>
   <Converter />
 </main>
-
-<style>
-  
-</style>
